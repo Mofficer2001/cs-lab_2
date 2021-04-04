@@ -7,6 +7,6 @@ int main()
     cout << "Enter A and B:" << endl;
     int a,b;
     cin>>a>>b;
-    cout<<"A - B ="<<a-b<<endl;
+    cout<<"A - B ="<<a-b<<endl<<a+b;
     return 0;
 }
