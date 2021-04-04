@@ -5,8 +5,12 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B:" << endl;
-    int a,b;
+    int a,b, max;
     cin>>a>>b;
-    cout<<"A / B ="<<a/b<<'\n';
+    max=a;
+    if (b>a)
+        cout<<"Max b="<<b<<'\n';
+    else
+        cout<<"Max a="<<a<<'\n';
     return 0;
 }
