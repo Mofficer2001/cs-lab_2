@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Enter A and B:" << endl;
+    cout << "Enter A and B:" << '\n';
     int a,b, max;
     cin>>a>>b;
     max=a;
